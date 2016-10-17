@@ -29,6 +29,7 @@ public class JavaFXCalculator extends Application
         
         Scene scene = new Scene(root);
         
+        primaryStage.setResizable(false);
         primaryStage.setTitle(appName + " - " + version);
         primaryStage.setScene(scene);
         primaryStage.show();
